@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Pousada Viva",
+    "slug": "pousada-viva",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.pousadaviva.manager"
+    },
+    "android": {
+      "package": "br.com.pousadaviva.manager",
+      "adaptiveIcon": {
+        "backgroundColor": "#315b4c"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-status-bar",
+      ["expo-splash-screen", { "backgroundColor": "#f6f7f4" }]
+    ]
+  }
+}

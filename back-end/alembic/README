@@ -1,0 +1,10 @@
+Alembic — Pousada API
+=====================
+
+Migrações do banco de dados.
+
+Comandos úteis:
+
+    alembic upgrade head
+    alembic downgrade -1
+    alembic revision --autogenerate -m "descricao"
